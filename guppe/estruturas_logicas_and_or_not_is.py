@@ -23,5 +23,14 @@ else:
     print('Você precisa ativar sua conta. Por favor, cheque seu e-mail')
 
 
+if ativo and logado:
+    print('Bem-vindo usuário')
+else:
+    print('Você precisa ativar sua conta. Por favor, cheque seu e-mail')
+
+
 # ativo é verdadeiro?
 print(ativo is True)
+
+print(not ativo)
+
